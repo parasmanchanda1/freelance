@@ -1,3 +1,10 @@
+body 
+{
+  background-color: black;
+  margin:0;
+  padding: 0;
+  overflow-x: hidden;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +43,270 @@
     transform: rotate(360deg);
   }
 }
+
+.blue-hue
+{
+  position: absolute;
+width: 1612px;
+height: 750px;
+left: 0px;
+top: 50px;
+background-color: rgb(1, 1, 32);
+filter: blur(66px);
+backdrop-filter: blur(100px);
+}
+
+ .group
+{
+
+position: absolute;
+width: 1500px;
+height: 666px;
+left: -100px;
+top: 0px;
+display: flex;
+}
+
+.rectangle
+{
+position: relative;
+width: 1500px;
+height: 992px;
+top:-500px;
+left: 0px;
+background: conic-gradient(from 180deg at 50% 50%, rgba(148, 12, 193, 0.18) -2.47deg, #670992 1.81deg, #3c0256 76.1deg, rgba(19, 22, 26, 0.131006) 121.11deg, rgba(7, 11, 22, 0) 300.72deg, rgba(0, 0, 0, 0) 349.73deg, rgba(143, 73, 233, 0.18) 357.53deg, #BD31FF 361.81deg);
+transform: rotate(-90deg);
+background-color: black;
+}
+
+.rectangle2
+{
+  position: relative;
+  width: 1500px;
+  height: 892px;
+  top:-500px;
+  left:120px;
+background: conic-gradient(from 180deg at 50% 50%, rgba(155, 68, 169, 0.18) -2.47deg, #670992 1.81deg,  #3c0256 76.1deg, rgba(19, 22, 26, 0.131006) 121.11deg, rgba(7, 11, 22, 0) 300.72deg, rgba(0, 0, 0, 0) 349.73deg, rgba(143, 73, 233, 0.18) 357.53deg, #BD31FF 361.81deg);
+transform: matrix(0, -1, -1, 0, 0, 0);
+background-color: #0d0523;
+} 
+
+.color-section2
+{
+  position: relative;
+   top:0;
+   
+}
+
+.centercontent
+{
+   padding : 20px;
+}
+.content
+{
+  display:flex;
+}
+
+
+.trustor-section
+{
+  flex-direction: column;
+  align-items: center;
+  margin:10% 0;
+}
+
+.trustor-section h1
+{
+ 
+  font-size: 60px;
+}
+
+.trustors 
+{
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: center;
+  gap:10px;
+}
+
+.centercontent
+{
+  background-color:#0d0523;
+}
+
+.centercontent h1
+{
+  font-size: 60px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.centercontent h3
+{
+  font-size: 24px;
+  margin : 0 25%;
+  letter-spacing: -0.02em;
+  margin-top: -2%;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 144.1%;
+  margin-bottom: 5%;
+}
+
+.testimonial-section
+{
+  margin-top: 10%;
+}
+
+.testimonial-part1
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5%; 
+}
+
+.testimonial-part1 h1
+{
+font-weight: 600;
+font-size: 60px;
+line-height: 76px;
+}
+
+.testimonial-part1 h3
+{
+margin: -1.5% 10%; 
+font-weight: 400;
+font-size: 24px;
+line-height: 144.1%;
+}
+
+.row
+{
+  display: flex;
+  gap:10px !important;
+  flex-wrap: wrap;
+  
+}
+
+.column
+{
+  align-self: stretch;
+}
+
+
+
+@media (max-width: 768px)
+{
+  body
+  {
+    overflow-x: hidden;
+  }
+   .content{
+    display: flex;
+    flex-direction:column;
+   }
+
+   .centercontent
+   {
+        max-width: 100%;
+        margin:0  5%;
+   }
+
+   .centercontent h1
+   {
+    font-size: 30px;
+    line-height: 36px;
+   }
+
+   .centercontent h3
+   {
+    font-size: 2.2vw;
+    line-height: 170%;
+    width: 70%;
+    margin: 0;
+    font-weight: bold;
+    margin: 0 7vw ;
+   }
+
+
+   .trustor-section h1
+   {
+    font-size: 30px;
+    line-height: 36px;
+   }
+
+   .trustor-section h3
+   {
+    font-size: 12px;
+    line-height: 170%;
+    width: 70%;
+    margin: 0;
+    margin-left: 55px;
+    font-weight: bolder;
+   }
+
+
+.testimonial-part1 h1
+{
+  font-size: 30px;
+  line-height: 36px;
+  font-family: 'Inter';
+}
+
+.testimonial-part1 h3
+{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 170%;
+}
+
+.trustors
+{
+  margin: 3% 0;
+}
+.customer
+{
+  margin:0;
+  gap:40px;
+  max-width: max-content;
+  order: 1;
+}
+
+.blue-hue
+{
+position: absolute;
+width:100vw;
+height: 25vh;
+left: 5vw;
+top: 0;
+filter: blur(66px);
+backdrop-filter: blur(100px);
+background-color: #5f1378;
+}
+
+
+.group
+{
+
+position: absolute;
+width: 80vw;
+height: 30vh;
+top: -20vh;
+left:-8vw;
+justify-content: space-between;
+background: conic-gradient(from 180deg at 50% 50%,#010002 -2.47deg, #000000 1.81deg,  #000000 76.1deg, #000000 121.11deg,#ca44eb  300.72deg, #930bd2 349.73deg, #a01add 357.53deg, #a63ad4 361.81deg);
+overflow-x: hidden;
+}
+
+.rectangle2
+{
+  position: relative;
+  width:0;
+  height:0
+}
+} 
